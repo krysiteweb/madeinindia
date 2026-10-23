@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uma surpresa pra você 💗</title>
+
+<style>
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffb6d5, #ffe1ee, #ff91bf);
+  color: #a90053;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cartao {
+  background: rgba(255,255,255,.65);
+  padding: 35px 25px;
+  border-radius: 30px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 12px 35px #db317044;
+  border: 2px solid #fff8;
+  animation: aparecer 1s ease;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+p { font-size: 19px; line-height: 1.6; }
+
+.emoji {
+  font-size: 65px;
+  animation: pulsar 1.5s infinite;
+}
+
+.seta {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  animation: descer 1.2s infinite;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  background: #ff368b;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 20px #ff368b77;
+}
+
+.final {
+  background: linear-gradient(160deg, #ff5ca7, #ffb4d5, #ff3388);
+}
+
+.final h1 {
+  font-size: clamp(45px, 12vw, 85px);
+  color: white;
+  text-shadow: 0 5px 20px #bd005e;
+  animation: pulsar 1.5s infinite;
+}
+
+.coracao {
+  position: fixed;
+  bottom: -50px;
+  pointer-events: none;
+  animation: flutuar linear forwards;
+  z-index: 5;
+}
+
+@keyframes flutuar {
+  to {
+    transform: translateY(-115vh) rotate(35deg);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsar {
+  50% { transform: scale(1.12); }
+}
+
+@keyframes descer {
+  50% { transform: translateY(12px); }
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<body>
+
+<section id="inicio">
+  <div class="cartao">
+    <div class="emoji">💌</div>
+    <h1>Oii, meu amor! 💗</h1>
+    <p>Fiz uma coisinha especial pra você...</p>
+    <p>Mas vai ter que ter paciência, tá? 🤭</p>
+    <a class="botao" href="#parte1">Clique aqui 💕</a>
+  </div>
+</section>
+
+<section id="parte1">
+  <div class="cartao">
+    <div class="emoji">🐱</div>
+    <h2>Primeira surpresa!</h2>
+    <p>Você sabia que um gatinho acabou de passar aqui?</p>
+    <p>Ele disse: miau, sua linda! 😼💕</p>
+    <div class="seta">Arraste pra baixo 👇💗</div>
+  </div>
+</section>
+
+<section id="parte2">
+  <div class="cartao">
+    <div class="emoji">🍓</div>
+    <h2>Olha um moranguinho!</h2>
+    <p>🍓🍓🍓</p>
+    <p>Não tem nada a ver com a surpresa, só achei fofinho KKKKK 😭</p>
+    <div class="seta">Continua descendo 👇💕</div>
+  </div>
+</section>
+
+<section id="parte3">
+  <div class="cartao">
+    <div class="emoji">🐸</div>
+    <h2>Um sapinho apareceu!</h2>
+    <p>Ele veio avisar que você é a princesa mais linda desse mundo.</p>
+    <p>Coax coax! 🐸💚</p>
+    <div class="seta">Arraste mais um pouquinho 👇💗</div>
+  </div>
+</section>
+
+<section id="parte4">
+  <div class="cartao">
+    <div class="emoji">🎀</div>
+    <h2>Tá curiosa, né? KKKKK</h2>
+    <p>Eu sei que você quer saber o que tem no final...</p>
+    <p>Mas ainda não chegou! 😝</p>
+    <div class="seta">Desce, minha princesa 👇💖</div>
+  </div>
+</section>
+
+<section id="parte5">
+  <div class="cartao">
+    <div class="emoji">💝</div>
+    <h2>Agora é sério...</h2>
+    <p>Brincadeiras à parte, eu fiz isso só pra conseguir tirar um sorrisinho seu.</p>
+    <p>Porque você é muito especial pra mim. 🥹</p>
+    <div class="seta">Última vez, prometo! 👇❤️</div>
+  </div>
+</section>
+
+<section class="final" id="final">
+  <div class="emoji">💍❤️</div>
+  <h1>EU TE AMO!</h1>
+  <div class="cartao">
+    <h2>Minha princesa 💗</h2>
+    <p>
+      No meio de tantas pessoas no mundo,
+      meu coração escolheu você.
+    </p>
+    <p>
+      Você é meu sorriso favorito, minha paz
+      e a melhor parte dos meus dias.
+    </p>
+    <p>
+      Eu te amo muito, meu amor!
+      Hoje, amanhã e sempre. ❤️
+    </p>
+    <h2>💗💍💗</h2>
+    <button class="botao" onclick="explosao()" style="border:0;cursor:pointer">
+      Clique pra receber amor 💕
+    </button>
+  </div>
+</section>
+
+<script>
+function criarCoracao() {
+  const coracao = document.createElement("div");
+  coracao.className = "coracao";
+  coracao.innerText = ["💗","💕","💖","❤️","🌸","🎀"][Math.floor(Math.random()*6)];
+  coracao.style.left = Math.random()*100+"vw";
+  coracao.style.fontSize = (15+Math.random()*25)+"px";
+  coracao.style.animationDuration = (4+Math.random()*4)+"s";
+  document.body.appendChild(coracao);
+  setTimeout(()=>coracao.remove(), 8000);
+}
+
+setInterval(criarCoracao, 350);
+
+function explosao() {
+  for(let i=0;i<60;i++) {
+    setTimeout(criarCoracao, i*35);
+  }
+}
+</script>
+
+</body>
+</html>
